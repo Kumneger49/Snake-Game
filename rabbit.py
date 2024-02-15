@@ -8,7 +8,7 @@ class Rabbit(Sprite):
         self.snakeobj=snakeobj
         self.setting=snakeobj.setting
         self.screen=snakeobj.screen
-        self.image=pygame.image.load('C:\\Users\\User\\Desktop\\Python\\Snake\\Toy-576514_1280-_2_.bmp')
+        self.image=pygame.image.load('Toy-576514_1280-_2_.bmp')
         self.rect=self.image.get_rect()
         self.screen_rect=self.screen.get_rect()
         self.rect.center=self.screen_rect.center
